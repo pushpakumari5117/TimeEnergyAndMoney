@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Time, Energy and Money</title>
+  </head>
+  <body>
+    <h1>Time, Energy and Money</h1>
+    <div class="content">
+      <img src="images/img.jpg" alt="img"/>
+      <table>
+        <tr>
+          <th></th>
+          <th>YOUNG</th>
+          <th>ADULT</th>
+          <th>OLD</th>
+        </tr>
+        <tr>
+          <td>TIME</td>
+          <td class="green"><i class="fas fa-check"></i> </td>
+          <td class="red"><i class="fas fa-times"></i> </td>
+          <td class="green"><i class="fas fa-check"></i> </td>
+        </tr>
+        <tr>
+          <td>ENERGY</td>
+          <td class="green"><i class="fas fa-check"></i> </td>
+          <td class="green"><i class="fas fa-check"></i> </td>
+          <td class="red"><i class="fas fa-times"></i> </td>
+        </tr>
+        <tr>
+          <td>MONEY</td>
+          <td class="red"><i class="fas fa-times"></i> </td>
+          <td class="green"><i class="fas fa-check"></i> </td>
+          <td class="green"><i class="fas fa-check"></i> </td>
+        </tr>
+      </table>
+    </div>
+    <div class="toggles">
+      <div class="toggle-container">
+        <input type="checkbox" id="time" class="toggle">
+        <label for="time" class="label">
+          <div class="ball">
+          </div>
+        </label>
+        <span>TIME</span>
+      </div>
+      <div class="toggle-container">
+        <input type="checkbox" id="energy" class="toggle">
+        <label for="energy" class="label">
+          <div class="ball">
+          </div>
+        </label>
+        <span>ENERGY</span>
+      </div>
+      <div class="toggle-container">
+        <input type="checkbox" id="money" class="toggle">
+        <label for="money" class="label">
+          <div class="ball">
+          </div>
+        </label>
+        <span>MONEY</span>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/2.0.3/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
