@@ -5,6 +5,6 @@
 DAY - 34 
 <br> 
 <br> 
-<a href="https://github.com/pushpakumari5117/Time_Energy_And_Money"> View Code </a> 
+<a href="https://github.com/pushpakumari5117/TimeEnergyAndMoney"> View Code </a> 
 || 
-<a href="https://pushpakumari5117.github.io/Time_Energy_And_Money/"> Live Demo </a>
+<a href="https://pushpakumari5117.github.io/TimeEnergyAndMoney/"> Live Demo </a>
